@@ -8,7 +8,6 @@
 #include <SDL.h>
 #include <SDL_image.h>
 
-void pause();
 
 int main(int argc, char *argv[])
 {
@@ -17,9 +16,6 @@ int main(int argc, char *argv[])
     SDL_Rect position_pion;
     SDL_Event event;
     int fin = 0;
-
-    position_pion.x = 100;
-    position_pion.y = 50;
 
 
     // INITIALIZATION
