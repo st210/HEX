@@ -39,6 +39,7 @@ int main (int argc, char *argv[])
     SDL_WM_SetIcon(IMG_Load("Images/hex_icon.png"), NULL);
 
     choix = create_menu(ecran);
+    /* à faire : gérer les différentes valeurs de la variable choix dans switch case */
     jeu(ecran);
 
 
